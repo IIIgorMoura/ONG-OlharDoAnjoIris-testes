@@ -41,7 +41,7 @@ import { Beneficiario } from "@/models/entityBeneficiario";
 const novo = new Beneficiario({
   guardianName: "Joana da Silva",
   guardianRg: "1234567",
-  cpfResponsavel: "111.222.333-44",
+  guardianCpf: "111.222.333-44",
   minors: [
     { name: "Ana", age: 5 },
     { name: "Lucas", age: 8 },
