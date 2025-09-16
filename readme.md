@@ -12,7 +12,7 @@ O modelo está implementado em:
 |---------------------|--------------|-----------|
 | `id`                | `string`     | Identificador único do registro |
 | `guardianName`   | `string`     | Nome completo do responsável legal |
-| `guardiarRg`     | `string`     | RG do responsável |
+| `guardianRg`     | `string`     | RG do responsável |
 | `guardianCpf`    | `string`     | CPF do responsável |
 | `minors`           | `{ nome: string; idade?: number \| null }[]` | Lista de menores sob responsabilidade, com nome e idade opcional |
 | `birthPlane`   | `string`     | Local de nascimento do responsável |
